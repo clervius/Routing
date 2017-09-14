@@ -14,6 +14,7 @@ const movies = [
 		director: 'Francis Ford Coppola',
 		metascore: 100,
 		stars: ['Marlon Brando', 'Al Pacino', 'Robert Duvall'],
+		img: 'http://abovethelaw.com/wp-content/uploads/2017/05/The-Godfather.jpg',
 	},
 	{
 		id: 1,
@@ -21,6 +22,7 @@ const movies = [
 		director: 'George Lucas',
 		metascore: 92,
 		stars: ['Mark Hamill', 'Harrison Ford', 'Carrie Fisher'],
+		img: 'https://media.contentapi.ea.com/content/legacy/starwars-ea-com/en_US/starwars/battlefront/news-articles/collect-iconic-heroes-and-dominate-the-universe-in-star-wars-gal/_jcr_content/featuredImage/renditions/rendition1.img.jpg',
 	},
 	{
 		id: 2,
@@ -28,6 +30,7 @@ const movies = [
 		director: 'Peter Jackson',
 		metascore: 92,
 		stars: ['Elijah Wood', 'Ian McKellen', 'Orlando Bloom'],
+		img: 'https://img.cmovieshd.com/images/2016-03/movie-the-lord-of-the-rings-the-fellowship-of-the-ring-big.jpg',
 	},
 ];
 

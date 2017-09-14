@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+html, body {
+  overflow: auto;
+  height:100%;
+}
+.shadow1 {
+  box-shadow: 0 8px 17px rgba(0, 0, 0, 0.2);
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  height:100%;
+background-size: cover;
+background-repeat: no-repeat;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+47,d1d1d1+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 47%, #d1d1d1 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 47%,#d1d1d1 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 47%,#d1d1d1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d1d1d1',GradientType=0 ); /* IE6-9 */
+
+}
+h3 {
+  color:rgba(0,0,0,.65) !important;
+}
+.holder {
+  width:960px;
+  margin:0 auto;
+  margin-top:25px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 30px;
+  display:inline-block;
+  position: relative;
+  top:-20px;
+  margin-left:-50px;
+}
+
+.App-header {
+  /*background-color: #222;  */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000222+0,2a5e6d+49,337184+51,000222+100 */
+background: #000222; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #000222 0%, #2a5e6d 49%, #337184 51%, #000222 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #000222 0%,#2a5e6d 49%,#337184 51%,#000222 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #000222 0%,#2a5e6d 49%,#337184 51%,#000222 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000222', endColorstr='#000222',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  overflow: hidden;
+  height: 95px;
+  padding: 20px;
+  color: white;
+  border-bottom: 2px solid #61dafb;
+  box-shadow: 0 8px 17px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.App-header h2 {
+  display:inline-block;
+}
+.App-header h2 small {
+  display:block;
+  font-size: 12px;
+}
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.mainNav {
+  list-style: none;
+  padding:0;
+  background-color:rgba(0,0,0,.04);
+}
+.mainNav li {
+  display: inline-block;
+  margin:0 10px;
+}
+.mainNav li a {
+  text-decoration: none;
+  color:#245d6c;
+  padding: 10px 5px;
+  display:block;
+  font-size:10px;
+  text-transform: uppercase;
+  text-align: center
+}
+.mainNav li a i {
+  display:block;
+  opacity: .7;
+  font-size:15px;
+}
+.ctaBtn {
+  background-color: #1e505e;
+  border-radius: 25px;
+  padding:10px 15px;
+  color:white;
+  border:2px solid white;
+  text-decoration: none;
+  box-shadow: 0 8px 17px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  margin-top:25px;
+  display:inline-block;
+}
+.ctaBtn:hover {
+  color:white;
+  text-decoration: none;
+}
+.movieList {
+  list-style: none;
+  padding:none;
+  text-align: left;
+}
+.movieList li {
+  margin-bottom:25px;
+}
+.movieList li .cardBlock {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
+}
+.movieList li .cardBlock img {
+  height:110px;width:100%;
+  display: block;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  border:none;
+}
+.cardTitleLink {
+  display:block;
+  height:46px;
+  overflow: hidden;
+  color:rgba(0,0,0,.65);
+  text-decoration: none;
+  font-weight:bold;
+}
+.addMovieLink {
+  display:block;
+  border:1px solid #1e505e;
+  text-align: center;
+  text-decoration: none;
+  color:#1e505e;
+  font-size:16px;
+  padding:25px 0;
+  border-radius: 4px;
+  opacity: .7;
+}
+.addMovieLink i {
+  font-size:26px;
+  display:block;
+
+}
+.addMovieLink:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+.breadCrumbLink {
+  color: #1e505e;
+  text-decoration: none
+}
+.breadCrumbLink i {
+  margin-right:10px;
+}
+.breadCrumbLink:hover {
+  color: #1e505e;
+  text-decoration: none
+}
+.block {
+  display:block;
+}
